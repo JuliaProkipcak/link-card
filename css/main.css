@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-family: georgia, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  border-radius: 8px;
+}
