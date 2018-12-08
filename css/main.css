@@ -14,3 +14,27 @@ html {
   background-color: #dcd4cd;
   border-radius: 8px;
 }
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  color: #512200;
+}
+
+.link-card dd {
+  display: inline-block;
+  width: 45%;
+  margin: 0;
+}
+
+.link-card dt {
+  display: inline-block;
+  width: 45%;
+  margin: 0;
+}
