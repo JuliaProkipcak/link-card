@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: georgia, sans-serif;
+  font-family: Georgia, sans-serif;
   line-height: 1.5;
 }
 
@@ -13,6 +13,9 @@ html {
   padding: 1rem;
   background-color: #dcd4cd;
   border-radius: 8px;
+  color: #512200;
+  text-decoration: none;
+  border: 3px solid #9a816d;
 }
 
 .link-card h2 {
@@ -37,4 +40,22 @@ html {
   display: inline-block;
   width: 45%;
   margin: 0;
+}
+
+.link-card dl {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: .875rem;
+}
+
+.btn {
+  background-color: #785439;
+  font-family: Dosis, sans-serif;
+  color: #f0eee8;
+  font-weight: bold;
+  padding: .4em .75em .5em;
+  display: inline-block;
+  font-size: 1.125rem;
 }
